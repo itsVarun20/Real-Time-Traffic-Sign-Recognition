@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Traffic Sign Detection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!link rel="stylesheet" type="text/css" href="homestyle.css">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='/homestyle.css')}}">
+  </head>
+  <body>
+    <div class="banner">
+      <div class="navbar">
+        <img src="/static/title1.png" class="logo">
+        <ul>
+          <li><a href="{{ url_for('index') }}">Home</a></li>
+
+        </ul>
+      </div>
+      <div class="content">
+        <h2>TELSIGN: Enhancing Road Safety <br>with Intelligent Traffic Sign Recognition</h2>
+        <p>Experience the future of road safety with our web application.<br>Detect and recognize traffic signs in real time, empowering you with instant information and enhancing your driving experience.<br>Simplify your interaction with traffic signs and embark on a safer journey today.</p>  
+      <div>
+          <a href="{{ url_for('explore') }}"><button type="button"><span></span>Detect</button></a>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

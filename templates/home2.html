@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Traffic Sign Detection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/homestyle.css') }}">
+  </head>
+  <body>
+    <div class="banner">
+      <div class="navbar">
+        <img src="/static/title1.png" class="logo">
+        <ul>
+          <li><a href="{{ url_for('index') }}">Home</a></li>
+        </ul>
+      </div>
+      <div class="content">
+          
+        <div class="video-container">
+          <img src="{{ url_for('video_feed') }}" max-width="640" height="480" id="video" />
+          <div id="overlay"></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="guide"><h2>App Usage Guide:</h2><br>
+   	  <p>1. Once you launch the Traffic Sign Detection App.<br>
+2. Grant the necessary camera permissions when prompted.<br>
+3. The camera feed will be displayed on the screen.<br>
+4. Hold a traffic sign within the view of the camera.<br>
+5. The app will analyze the traffic sign in real-time.<br>
+6. The corresponding sign name and accuracy will be displayed on the screen.<br>
+7. Repeat the process with different traffic signs to explore the app's accuracy.<br>
+8. To return, click the home button on top right.</p>
+    </div>
+  </body>
+</html>
+
+
