@@ -1,6 +1,6 @@
 # Real Time Traffic Sign Recognition
 
-![TSR2](https://github.com/itsVarun20/Real-Time-Traffic-Sign-Recognition/assets/107756380/64d05a9f-36f8-4d95-ace3-b573bf38b4c3)
+![TSR1](https://github.com/itsVarun20/Real-Time-Traffic-Sign-Recognition/assets/107756380/68989d0a-de78-4e44-b385-b00567058324)
 
 Project Domain: Computer Vision
 
